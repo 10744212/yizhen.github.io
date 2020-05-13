@@ -1,0 +1,381 @@
+		body{
+			background-color:#FFFFFF;
+
+		}
+		.header{
+			position: fixed;
+			background-color: gray;
+			width: 100%;
+			height: 60px;
+			text-align: right;
+			font-size: 18px;
+			line-height: 55px;
+			z-index: 2;
+		
+		}
+		.topimg{
+			width:100%;
+			height: 550px;
+			margin-bottom: 50px; 
+		}
+		
+		
+		.name{
+			line-height: 55px;
+			font-family: Comic Sans MS, Comic Sans, cursive;
+			text-decoration:none;
+			color:white;
+			margin-right: 820px; 
+			font-size: 30px;
+		}
+		.name:hover
+		{
+			text-shadow: 10px 5px 10px 5px  #F0F0F0;
+			padding:5px;
+			font-size: 35px;
+		}
+		.w-head{
+			font-family: DejaVu Sans Mono, monospace;
+			text-decoration:none;
+			color:white;
+			
+		}
+		
+		.w-head:hover
+		{
+			font-family: DejaVu Sans Mono, monospace;
+			border-style:dotted;
+			border-radius :10px 10px;
+			padding:5px;
+			font-size: 20px;
+			color:white;
+		}
+		
+		.imgg
+		{
+			position: absolute;
+			margin-top:705px;
+			align-items: center;
+			padding-left: 100px;
+		}
+		.imgme{
+			z-index:1;
+		}
+		.w-about{
+			color: #69715B;
+			font-family: 微軟正黑體;
+		}
+		.tab{
+			
+			
+			width: 1000px;
+			height: 680px;
+			margin-left:250px;
+			border: 5px solid black;
+			border-collapse:collapse;
+			border-style: dotted;
+			color:#69715B ;
+			margin-top:30px;
+			background-color: #F0F0F0;
+			
+		}
+		.imgsch{
+			color:#67785E;
+			margin-left: 130px;
+			position: absolute;
+		}
+		
+		
+		#social1 {
+			position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+			top: 50%;  /*設置垂直位置*/
+			right: -63px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+			background: gray;  /*背景顏色*/
+			padding: 10px 20px;
+			border-radius: 10px;  /*圓角*/
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			color:white;
+			font-family: DejaVu Sans Mono, monospace;
+		}
+		#social1:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+			right: -13px;
+			font-family: DejaVu Sans Mono, monospace;
+		}
+		#social1  #social2 #social3 #title{
+			padding-right: 5px;  /*讓標題與連結中間有空隙*/
+		}
+		#social2{
+			font-family: DejaVu Sans Mono, monospace;
+			position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+			top: 60%;  /*設置垂直位置*/
+			right: -63px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+			background: gray;  /*背景顏色*/
+			padding: 10px 20px;
+			border-radius: 10px;  /*圓角*/
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			color:white;
+		}
+		#social2:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+			right: -13px;
+			font-family: DejaVu Sans Mono, monospace;
+		}
+		#social3{
+			font-family: DejaVu Sans Mono, monospace;
+			position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+			top: 70%;  /*設置垂直位置*/
+			right: -63px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+			background: gray;  /*背景顏色*/
+			padding: 10px 20px;
+			border-radius: 10px;  /*圓角*/
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			color:white;
+		}
+		#social3:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+			right: -13px;
+		}
+		
+		#gotop {
+			position: fixed;
+			border-radius: 60px;
+			right: 20px;
+			bottom: 30px;
+			padding: 10px 16px;
+			font-size: 40px;
+			background: rgba(228, 211, 211, 0.60);
+			color: black;
+			cursor: pointer;
+			z-index: 1000;
+		}
+		div.bodyhome{
+			margin-top: 725px;
+			margin-left: 150px;
+			width: 500px;
+			height: 450px;
+		
+		}
+		.word{
+			font-family: DejaVu Sans Mono, monospace;
+			position: absolute;
+			font-size: 25px;
+			margin-top :550px;
+			z-index: 1;
+			margin-left:100px;
+		}
+		.word1{
+			color:white;
+		}
+		.word1:hover{
+			color:black;
+		}
+	
+		.txt{
+			position: absolute ;left:450px;top:20px;
+			font-size:20px;
+			color: white;
+			font-weight: bold;
+			font-family: 微軟正黑體;
+			background-color: #3D7878;
+			border-radius:20px;
+			width:325px;
+			height: 180px;
+			word-spacing: 10px;
+			line-height: 35px;
+			text-align:center;
+			display: inline-block;
+			
+		}
+			.pic1{
+			position: absolute ;left:230px;top:25px;
+		}
+		.txt2{
+			position: absolute ;left:450px;top:240px;
+			font-size:20px;
+			color: white;
+			font-weight: bold;
+			font-family: 微軟正黑體;
+			background-color: #3D7878;
+			border-radius:20px;
+			width:325px;
+			height: 180px;
+			word-spacing: 10px;
+			line-height: 40px;
+			text-align:center;
+			display: inline-block;
+			
+		}
+		.pic2{
+			position: absolute ;left:230px;top:230px;
+		}
+		.txt3{
+			position: absolute ;left:450px;top:470px;
+			font-size:20px;
+			color: white;
+			font-weight: bold;
+			font-family: 微軟正黑體;
+			background-color: #3D7878;
+			border-radius:20px;
+			width:325px;
+			height: 180px;
+			word-spacing: 10px;
+			line-height: 30px;
+			text-align:center;
+			display: inline-block;
+		
+		}
+		.pic3{
+			position: absolute ;left:230px;top:450px;
+		}
+		.img01:hover{
+			border-radius: 10px;
+			
+		}
+		.img01{
+			
+			margin-left:70px;
+			margin-top:50px;
+			border-radius: 60px;
+			transition: 0.5s;
+		}
+		.img02:hover{
+			border-radius: 10px;
+			
+		}
+		.img02{
+			position: absolute;
+			margin-left:30px;
+			margin-top:30px;
+			border-radius: 60px;
+			transition: 0.5s;
+		}
+		.img03:hover{
+			border-radius: 10px;
+				
+		}
+		.img03{
+			position: absolute;
+			margin-left:300px;
+			margin-top:30px;
+			border-radius: 60px;
+			transition: 0.5s;
+		}
+		.img04:hover{
+			border-radius: 10px;
+			
+		}
+		.img04{
+			position: absolute;
+			margin-left:300px;
+			margin-top:260px;
+			border-radius: 60px;
+			transition: 0.5s;
+		}
+		.img05:hover{
+			border-radius: 10px;
+			
+		}
+		.img05{
+			position: absolute;
+			margin-left:30px;
+			margin-top:260px;
+			border-radius: 60px;
+			transition: 0.5s;
+		}
+		.img06:hover{
+			border-radius: 10px;
+			
+		}
+		.img06{
+			position: absolute;
+			margin-left:600px;
+			margin-top:50px;
+			border-radius: 60px;
+			transition: 0.5s;
+		}
+		.title01{
+			margin-left:80px;
+			color:white;
+			font-size: 25px;
+			background-color: gray;
+			width: 150px;
+			height: 50px;
+			padding-top: 5px;
+			border-radius: 20px;
+			padding-left: 10px;
+			margin-top:600px; 
+			font-family: DejaVu Sans Mono, monospace;
+			position: absolute;
+		
+		}
+		.title02{
+			margin-left:80px;
+			margin-top:19px; 
+			color:white;
+			font-size: 25px;
+			background-color: gray;
+			width: 320px;
+			height: 50px;
+			border-radius: 20px;
+			padding-left: 10px;
+			padding-top: 5px;
+			font-family: DejaVu Sans Mono, monospace;
+			
+		}
+		.title03{
+			margin-top:100px; 
+			margin-left:80px;
+			margin-bottom: 50px; 
+			color:white;
+			font-size: 25px;
+			background-color: gray;
+			width: 135px;
+			height: 50px;
+			border-radius: 20px;
+			padding-left: 10px;
+			padding-top: 5px;
+			font-family: DejaVu Sans Mono, monospace;
+			
+		}
+
+		footer{
+			margin-top:100px;
+			padding-top: 10px;
+			background-color: gray;
+			font-size:12px;
+			color: white;
+			text-align: center;
+			height: 75px;
+		}
+		.int{
+			background-color:#a1a1a1;
+			color: white;
+			height: 400px;
+			width: 1200px;
+			border-radius:20px;
+			margin-left: 148px ;
+			margin-bottom: -60px;
+
+
+		}
+	.hover {position:relative;}
+
+.hover img {
+  position:absolute;
+  /* CSS3淡出淡入效果,1秒 */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+.hover img:nth-of-type(2):hover{
+  opacity:0; /滑鼠滑入時，透明度變0/
+}
+.aa000{
+	position: absolute;
+	margin-top:520px;
+	z-index: -1;
+}
